@@ -1,0 +1,72 @@
+:root {
+    --primary-color: hsl(75, 94%, 57%);
+    --white-neutral-color: hsl(0, 0%, 100%);
+    --dark-grey-color-neutral: hsl(0,0%,12%);
+    --grey-neutral-color: hsl(0, 0%, 20%);
+    --off-black-neutral-color: hsl(0,0%,8%);
+    --font-size-paragraph: 14px;
+    --font-family: inter;
+    --font-weight: 400;
+    --second-font-weight: 600;
+    --third-font-weight: 700;
+    --desktop-width: 1440px;
+    --mobile-width: 375px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card-main {
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--dark-grey-color-neutral);
+    font-family:  ui-rounded;
+    color: var(--white-neutral-color);
+
+}
+
+.a-action{
+    border-style: none;
+    border-radius: 5px;
+    background-color: var(--grey-neutral-color);
+    color: var(--white-neutral-color);
+    width: 325px;
+    height: 40px;
+    margin: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.profile-image {
+    border-radius: 60%;
+    width: 100px;
+    height: 120px;
+}
+
+.main-screen {
+    background-color: var(--off-black-neutral-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphs {
+    font-size: var(--font-size-paragraph);
+    color: var(--primary-color);
+}
+
+.card-main h2 {
+    margin-bottom: 5px;
+}
+.card-main p {
+    margin-top: 5px;
+}
